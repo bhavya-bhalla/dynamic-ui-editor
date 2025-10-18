@@ -134,3 +134,22 @@ input[type="range"]::-moz-range-thumb:hover {
     height: 50%;
   }
 }
+
+/* Fix for select dropdown text visibility */
+select {
+  color: #374151 !important;
+  background-color: white !important;
+}
+
+select option {
+  color: #1f2937;
+  background-color: white;
+  padding: 8px;
+}
+
+/* Style for focused/selected state */
+select:focus {
+  outline: 2px solid #3B82F6;
+  outline-offset: 2px;
+  color: #1f2937;
+}
